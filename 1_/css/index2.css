@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+#wrap{width: 1280px; margin: 0 auto;}
+
+/* 인기 브랜드 */
+.brand_h2{
+    font-family: 'NanumSquareRound';
+    font-size: 40px;
+    color: #524c41;
+    margin: 5% 0 4%;
+    text-align: center;
+}
+
+#brand{
+    width: 1280px;
+    height: 280px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#brand div{
+    width: 212px;
+    height: 263px;
+    margin: 20px 0;
+}
+
+#brand img{
+    width: 200px;
+    height: 200px;
+}
+
+#brand p{
+    font-family: "RixXladywatermelonR";
+    font-size: 25px;
+    font-weight: bold;
+    color: #524c41;
+    margin: 15px 0;
+}
+
+#brand a:hover{opacity: 0.7;}
+
+
+/* 홈>NEW&ALL 창이요*/
+#home{
+    width: 1280px;
+    margin: 6% auto 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: #817A6C;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'NanumSquareRound';
+}
+
+#home ul{margin: 0px 20px;}
+#home li{
+    display: inline;
+}
+
+
+#home a{
+    text-decoration: none;
+    color: #817A6C;
+}
+
+#box{
+    width: 1280px;
+    height: 60px;
+    margin: 0 auto;
+    border: 2px solid #524c41;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#box p{
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #524c41;
+    font-family: 'NanumSquareRound';
+}
+
+#box ul{
+    margin-right: 20px;
+}
+#box li{
+    display: inline;
+}
+#box a{
+    text-decoration: none;
+    color: #524c41;
+    font-family: 'NanumSquareRound';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#box li::after{
+    content: "|";
+    font-family: 'NanumSquareRound';
+    font-size: 20px;
+    color: #524c41;
+    margin-left: 7px;
+}
+#box li:nth-of-type(5)::after{
+    content: "";
+}
+
+
+/* 제품들 */
+#item{
+    width: 1280px;
+    height: 2100px;
+    margin: 4% auto 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#item div{
+    width: 310px;
+    height: 380px;
+    text-align: center;
+}
+
+#item img{
+    width: 295px;
+    height: 295px;
+    padding: 5px;
+    border: 1px solid #524c41;
+}
+
+#item p{
+    font-family: 'RixXladywatermelonR'; 
+    font-size: 20px; 
+    line-height: 30px;
+    margin-top: 10px;
+}
+#item span{
+    color: #FF0000;
+}
+
+#item a:hover{opacity: 0.7;}
+
+/* 페이지 */
+#page{
+    width: 1280px;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#page ul{
+    width: 310px;
+    margin: 0 0 4%;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid #817A6C;
+}
+#page li{
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+#page a{
+    text-decoration: none;
+    color: #524c41;
+    font-weight: bold;
+    font-family: 'NanumSquareRound';
+    font-size: 20px;
+}

@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* 상단베너 */
+#slider{width: 100%; height: 577px; margin: 0 auto; text-align: center; background-color: #FFFAF0; border: 2px solid #524C41; border-right: hidden; border-left: hidden;}
+
+.slider-grid{width: 1280px; height: 577px; display: inline-block;}
+
+.slider-div1{width: 822px; height: 431px; display: inline-block;}
+
+.slider-div2{text-align: center; position: relative;}
+.slider-div2 input{height: 60px; font-size: 20px; margin:20px 0px 0 0; padding-left: 25px; border-radius: 20px; border: 2px solid #524C41; cursor: pointer;}
+.slider-div2 input[type="search"]:focus{outline: 0;}
+
+.slider-div2 span{position: absolute; color: #524C41; top: 25px; margin: 5px -60px; font-size: 28px; cursor: pointer;}
+.slider-div2 span:hover{opacity: 0.6;}
+
+
+/* 인기브랜드 */
+#section1{width: 1280px; height: 565px; margin: 0 auto; text-align: center;}
+
+#section1 div{width: 1280px; height: 100px; margin: 0 auto; display: inline-block; margin-top: 8%;}
+
+#section1 h1{font-family: NanumSquareRound; font-size: 50px; color: #524C41;}
+
+#section1 article{width: 200px; height: 270px; float: left; margin: 35px 27.8px;}
+
+#section1 img{width: 200px; height: 200px;}
+
+#section1 p{font-weight: bold; font-family: RixXladywatermelonR; font-size: 25px; margin-top: 20px; color: #524C41;}
+
+#section1 a:hover{opacity: 0.7;}
+
+
+/* 신제품 */
+#section2{width: 1280px; height: 594px; margin: 0 auto;}
+
+#section2 article{width: 625px; height: 408px; float: left; margin: 6% 0;}
+#section2 article:nth-child(1){float: left; background-color: #FFF5FA;}
+#section2 article:nth-child(2){float: right; background-color: #FFFBDD;}
+
+#section2 img{margin: 5px 0;}
+#section2 img[alt="신제품2"]{float: right;}
+#section2 img[alt="신제품1"]{float: left;}
+
+#section2 div{text-align: center; margin: 15% 0;}
+#section2 h1{font-family: NanumSquareRound; font-size: 35px; line-height: 47px; color: #333;}
+#section2 span{font-family: NanumSquareRound; color: #FF0000;}
+#section2 p{font-family: NanumSquareRound; font-size: 20px; color: #333;}
+
+#section2 a:hover{opacity: 0.7;}
+
+
+/* 베스트 */
+#section3{width: 1280px; height: 1100px; margin: 0 auto; text-align: center;}
+
+.section3-div{width: 1280px; height: 125px; display: inline-block;}
+#section3 h3{font-size: 65px; font-family: "Jersey 10", sans-serif; font-weight: 400; font-style: normal; color: #524C41;}
+
+#section3 article{width: 294px; height: 392px; float: left; margin: 30px 12.75px;}
+
+#section3 img{background: #fff; border: 1px solid #524c41;}
+
+#section3 p{margin: 20px 0; line-height: 30px; font-family: RixXladywatermelonR; font-size: 20px;}
+
+#section3 a:hover{opacity: 0.7;}
+
+
+
+/* 광고 */
+#section4{width: 100%; height: 600px; margin: 0 auto; background-color: #f3ffe9;}
+
+#section4-grid{width: 1280px; height: 600px; margin: 0 auto; position: relative;}
+
+#section4 article{width: 638px; height: 600px; float: left;}
+
+#section4 img[alt="동숲키링"]{margin-top: 5px;}
+#section4 img[alt="너굴"]{top: 5%; right: 10%; position: absolute; z-index: 1;}
+#section4 img[alt="말풍선"]{bottom: 8%; right: -5%; position: absolute;  z-index: 2;}
+
+
+
+/* 뉴엔올 */
+#section5{width: 1280px; height: 1452px; margin: 0 auto;}
+
+#section5 div{width: 1280px; height: 125px; display: inline-block;}
+#section5 h3{text-align: center; margin-top: 6%; font-size: 65px; font-family: "Jersey 10", sans-serif; font-weight: 400; font-style: normal; color: #524C41;}
+
+#section5 article{width: 310px; height: 390px; float: left; margin: 0 4.7px; margin-top: 4%}
+
+#section5 img{width: 304px; height: 305px; margin-left: 2px; padding: 5px; border: 1px solid #524c41;}
+
+#section5 p{text-align: center; font-family: RixXladywatermelonR; font-size: 20px; margin: 20px 0; line-height: 30px;}
+#section5 span{color: #FF0000;}
+
+#section5 a:hover{opacity: 0.7;}
+#section5 a{text-decoration: none;}
+
+
+/* 리뷰 */
+#section6{width: 1280px; height: 654px; margin: 0 auto;}
+
+#section6 div{width: 1280px; height: 85px; margin-top: 2%; border: 2px solid #524C41; border-top: hidden; border-right: hidden; border-left: hidden;}
+
+#section6 h3{box-sizing: content-box; padding-top: 4%; text-align: center; font-size: 65px; font-family: "Jersey 10", sans-serif; font-weight: 400; font-style: normal; color: #524C41;}
+
+#section6 .box{width: 310px; height: 307px; border: 1px solid; float: left; margin: 3% 3.5px;}
+#section6 img{margin: 7.5px 7.5px;}
+#section6 p{text-align: center; font-size: 23px; color: gold;}
+
+#section6 a:hover{opacity: 0.7;}
+
+
